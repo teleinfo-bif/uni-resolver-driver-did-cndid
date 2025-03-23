@@ -1,7 +1,7 @@
 version: '3'
 services:
   universalResolver:
-    image: universalresolver/driver-did-cndid:v1.0.0
+    image: teleinfo/driver-did-cndid:v1.0.0
     container_name: universalresolver-driver-did-cndid
     network_mode: bridge
     environment:

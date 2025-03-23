@@ -18,7 +18,7 @@ did:cndid:sf24eYrmwXt6nx4fig3XJm7n9UP6PNRJ3
 ## Run (Docker)
 
 ```
-docker run -p 8080:8080 universalresolver/driver-did-cndid:v1.0.0
+docker run -p 8080:8080 teleinfo/driver-did-cndid:v1.0.0
 curl -X GET http://localhost:8080/1.0/identifiers/did:cndid:sf24eYrmwXt6nx4fig3XJm7n9UP6PNRJ3
 ```
 
