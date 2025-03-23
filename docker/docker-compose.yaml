@@ -1,0 +1,10 @@
+version: '3'
+services:
+  universalResolver:
+    image: universalresolver/driver-did-cndid:v1.0.0
+    container_name: universalresolver-driver-did-cndid
+    network_mode: bridge
+    environment:
+      TZ: Asia/Shanghai
+    ports:
+      - '18080:8080'
